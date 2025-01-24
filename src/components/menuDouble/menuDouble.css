@@ -1,0 +1,25 @@
+.double-container{
+width: var(--width-container);
+height: auto;
+display: flex;
+flex-direction: row;
+border: 2px solid rgb(21, 208, 111);
+gap: 10px;
+margin-bottom: 20px;
+}
+.content-left{
+   width: 300px;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   
+   border: 2px solid red;
+}
+.content-right{
+   width: 600px;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   border: 2px solid red;
+   text-align: center;
+}

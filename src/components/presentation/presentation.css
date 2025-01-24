@@ -1,0 +1,11 @@
+.presentation-container{
+   background: rgb(223, 222, 218);
+   width: var(--width-container);
+   height: 200px;
+   display: flex;
+   flex-direction: row;
+   align-items: start;
+   justify-content: flex-start;
+   border: 2px solid rgb(128, 83, 83);
+   margin-bottom: 10px;
+}

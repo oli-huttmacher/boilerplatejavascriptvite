@@ -1,0 +1,40 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+:root {
+   --width-container: 1000px;
+   --width-app: 1200px;
+   --hauteur-primaire: 200px;
+   --hauteur-secondaire: 100px;
+ }
+ 
+a{
+   text-decoration: inherit;
+   color: rgb(47, 22, 213);
+}
+
+a:hover{
+   color: rgb(64, 235, 16);
+}
+body{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background: rgb(52, 49, 49);
+}
+
+#app{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: start;
+   width: 900px;
+   height: auto;
+   border: 2px solid rgb(135, 135, 135);
+   padding: 40px;
+   background:white;
+   width: 1200px;
+}
